@@ -1,16 +1,13 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <Starrytky></Starrytky>
+  <hr />
+  <router-link to="/">第一个组件</router-link>
+  <router-link to="/tky">第二个组件</router-link>
+  <router-view></router-view>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-import Starrytky from './components/Starrytky.vue';
-
 export default {
-  name: 'App',
-  components: {
-    Starrytky
-  }
+  name: 'App'
 }
 </script>
