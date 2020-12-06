@@ -1,20 +1,20 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './index.css'
-import { createWebHashHistory, createRouter, createWebHistory } from 'vue-router';
+import { createWebHashHistory, createRouter } from 'vue-router';
 
-import Starrytky from './components/Starrytky.vue';
-import Starrytky2 from './components/Starrytky2.vue';
+import Home from './views/Home.vue';
+import Doc from './views/Doc.vue';
 
-const history = createWebHistory()
+const history = createWebHashHistory()
 const router = createRouter({
     history: history,
     routes: [
         {
-            path: '/', component: Starrytky
+            path: '/', component: Home
         },
         {
-            path: '/tky', component: Starrytky2
+            path: '/doc', component: Doc
         }
     ]
 })
