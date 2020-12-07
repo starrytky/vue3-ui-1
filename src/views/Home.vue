@@ -2,12 +2,10 @@
     <div>
         <div class="topnav">
             <div class="logo">logo</div>
-            <div class="menu">
-                <ul>
+            <ul class="menu">
                     <li>菜单1</li>
                     <li>菜单2</li>
-                </ul>
-            </div>
+            </ul>
         </div>
         <div class="banner">
             <h1>vue3 UI</h1>
